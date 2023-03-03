@@ -1,0 +1,9 @@
+[user]
+	email = <email>
+	name = <username>
+[init]
+	defaultBranch = master
+[core]
+	editor = nvim
+[credential]
+	helper = store --file ~/.config/git/credential
