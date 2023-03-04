@@ -17,7 +17,6 @@ export XDG_STATE_HOME=~/.local/state
 
 alias ls="nnn -ed"
 alias nnn="nnn -ed"
-alias yarn="yarn --use-bin ~/.local/bin"
 alias nvim="nvim +NvimTreeOpen"
 
 export EDITOR=nvim
@@ -38,7 +37,7 @@ fi
 export XAUTHORITY=$XDG_CACHE_HOME/X11/Xauthority
 export LESSHISTFILE=-
 export PYTHONSTARTUP=$XDG_CONFIG_HOME/python/startup.py
-export GOPATH=$XDG_HOME/go
-export RUSTUP_HOME=$XDG_HOME/rust/rustup
-export CARGO_HOME=$XDG_HOME/rust/cargo
-export YARN_HOME=$XDG_HOME/yarn
+export GOPATH=$XDG_DATA_HOME/go
+export RUSTUP_HOME=$XDG_DATA_HOME/rust/rustup
+export CARGO_HOME=$XDG_DATA_HOME/rust/cargo
+export YARN_HOME=$XDG_DATA_HOME/yarn
