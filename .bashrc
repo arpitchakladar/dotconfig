@@ -15,15 +15,15 @@ export XDG_CACHE_HOME=~/.cache
 export XDG_DATA_HOME=~/.local/share
 export XDG_STATE_HOME=~/.local/state
 
-alias sftp="python -m pyftpdlib -w"
 alias ls="nnn -ed"
 alias nnn="nnn -ed"
+alias ghci="ghci -fno-ghci-history"
 
 export EDITOR=nvim
 export HISTSIZE=100
 
-export NNN_FCOLORS="c1e28e2e006017f7c6d6abc4"
-export NNN_OPTS="H"
+export NNN_FCOLORS=c1e28e2e006017f7c6d6abc4
+export NNN_OPTS=H
 
 # Paths
 if [ ! -d $XDG_CACHE_HOME/bash ]; then
@@ -42,3 +42,4 @@ export RUSTUP_HOME=$XDG_DATA_HOME/rust/rustup
 export CARGO_HOME=$XDG_DATA_HOME/rust/cargo
 export YARN_HOME=$XDG_DATA_HOME/yarn
 export YARN_PREFIX=~/.local
+export CABAL_CONFIG=~/.config/cabal/config
