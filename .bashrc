@@ -15,9 +15,9 @@ export XDG_CACHE_HOME=~/.cache
 export XDG_DATA_HOME=~/.local/share
 export XDG_STATE_HOME=~/.local/state
 
+alias sftp="python -m pyftpdlib -w"
 alias ls="nnn -ed"
 alias nnn="nnn -ed"
-alias nvim="nvim +NvimTreeOpen"
 
 export EDITOR=nvim
 export HISTSIZE=100
@@ -41,3 +41,4 @@ export GOPATH=$XDG_DATA_HOME/go
 export RUSTUP_HOME=$XDG_DATA_HOME/rust/rustup
 export CARGO_HOME=$XDG_DATA_HOME/rust/cargo
 export YARN_HOME=$XDG_DATA_HOME/yarn
+export YARN_PREFIX=~/.local

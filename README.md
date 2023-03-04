@@ -1,2 +1,2 @@
 # dotconfig
-My linux setup.
+My linux setup, for a very minimilist linux distro.
