@@ -35,3 +35,5 @@ For all the programs (optional or required) first check if they can be installed
 | NodeJs Package Manager  | [yarn](https://classic.yarnpkg.com/lang/en/docs/install) |
 | Go Lang                 | [go](https://go.dev)                                     |
 | Rust Tool Chain         | [rustup](https://www.rust-lang.org/tools/install)        |
+| Haskell                 | [ghc](https://www.haskell.org/ghc)                       |
+| Haskell Package Manager | [cabal](https://www.haskell.org/cabal                    |

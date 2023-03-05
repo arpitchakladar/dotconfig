@@ -6,7 +6,7 @@ function map(mode, lhs, rhs, opts)
 	vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
-map("n", "<c-n>", ":NvimTreeToggle<CR>", { silent = true })
+map("n", "<c-n>", ":NeoTreeShowToggle<CR>", { silent = true })
 map("n", "<C-H>", "<C-W>h", { silent = true })
 map("n", "<C-J>", "<C-W>j", { silent = true })
 map("n", "<C-K>", "<C-W>k", { silent = true })

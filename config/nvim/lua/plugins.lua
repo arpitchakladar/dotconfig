@@ -1,26 +1,19 @@
-require("nvim-tree").setup {
-	renderer = {
-		indent_width = 0,
-		icons = {
-			symlink_arrow = "",
-			show = {
-				folder_arrow = false
-			},
-			glyphs = {
-				git = {
-					unstaged = "",
-					untracked = "?",
-					renamed = "",
-					ignored = ""
-				}
-			}
+require("neo-tree").setup {
+	default_component_configs = {
+		indent = {
+			indent_size = 2,
+			padding = 0
 		}
 	},
-	filters = {
-		dotfiles = false
+	window = {
+		width = 30
 	},
-	git = {
-		ignore = false
+	filesystem = {
+		filtered_items = {
+			hide_hidden = false,
+			hide_gitignored = false,
+			hide_dotfiles = false
+		}
 	}
 }
 require("nvim-web-devicons").setup()
@@ -32,6 +25,13 @@ require("packer").startup(function(use)
 	use "wbthomason/packer.nvim"
 	use "morhetz/gruvbox"
 	use "nvim-lualine/lualine.nvim"
-	use "nvim-tree/nvim-tree.lua"
+	use {
+		"nvim-neo-tree/neo-tree.nvim",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons",
+			"MunifTanjim/nui.nvim",
+		}
+	}
 	use "nvim-tree/nvim-web-devicons"
 end)
