@@ -2,12 +2,13 @@
 All the requirements for my linux setup.
 
 ## Note
-For all the programs (optional or required) first check if they can be installed with the default package manager of your current distro.
+For all the programs (optional or required) first check if they can be installed with the default package manager of your current distro. Some have to be downloaded by install scripts, or by compiling from source code.
 
 ## Required
 ### Programs
-| Description             | Program                                                  |
+| Type                    | Program                                                  |
 | ----------------------- | -------------------------------------------------------- |
+| Shell                   | [bash](https://www.gnu.org/software/bash)                |
 | X server                | [xserver](https://www.x.org/wiki/ModuleComponentList)    |
 | Start X Server          | [xinit](https://www.x.org/wiki/ModuleComponentList)      |
 | Window Manager          | [i3](https://i3wm.org)                                   |
@@ -16,6 +17,7 @@ For all the programs (optional or required) first check if they can be installed
 | Terminal Emulator       | [urxvt](https://github.com/exg/rxvt-unicode)             |
 | File Explorer           | [nnn](https://github.com/jarun/nnn)                      |
 | Text / Code Editor      | [neovim](https://neovim.io)                              |
+| Neovim Plugin Manager   | [packer](https://github.com/wbthomason/packer.nvim)      |
 | Version Control         | [git](https://git-scm.com)                               |
 
 ### Fonts
@@ -23,7 +25,7 @@ For all the programs (optional or required) first check if they can be installed
 
 ## Optional
 ### Programs
-| Description             | Program                                                  |
+| Type                    | Program                                                  |
 | ----------------------- | -------------------------------------------------------- |
 | Active Process Viewer   | [htop](https://htop.dev)                                 |
 | Python                  | [python](https://www.python.org)                         |
@@ -36,4 +38,5 @@ For all the programs (optional or required) first check if they can be installed
 | Go Lang                 | [go](https://go.dev)                                     |
 | Rust Tool Chain         | [rustup](https://www.rust-lang.org/tools/install)        |
 | Haskell                 | [ghc](https://www.haskell.org/ghc)                       |
-| Haskell Package Manager | [cabal](https://www.haskell.org/cabal                    |
+| Haskell Package Manager | [cabal](https://www.haskell.org/cabal)                   |
+| Assembler               | [nasm](https://www.nasm.us)                              |
