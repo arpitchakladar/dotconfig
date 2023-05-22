@@ -4,9 +4,9 @@ import readline
 import time
 
 def write_history(path):
-	import os
-	import readline
 	try:
+		import os
+		import readline
 		os.makedirs(os.path.dirname(path), mode=0o700, exist_ok=True)
 		readline.write_history_file(path)
 	except OSError:

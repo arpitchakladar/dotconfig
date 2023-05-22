@@ -7,15 +7,12 @@
 
 PS1="\[\e[36m\][\[\e[32m\]\u\[\e[36m\]@\[\e[34m\]\h \[\e[33m\]\w\[\e[36m\]]\$\[\e[0m\] "
 
-export PATH="$HOME/.local/bin:$PATH"
-
 # XDG Base Directory Specification
 export XDG_CONFIG_HOME=~/.config
 export XDG_CACHE_HOME=~/.cache
 export XDG_DATA_HOME=~/.local/share
 export XDG_STATE_HOME=~/.local/state
 
-alias ls="nnn -ed"
 alias nnn="nnn -ed"
 alias ghci="ghci -fno-ghci-history"
 

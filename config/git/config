@@ -1,9 +1,11 @@
 [user]
-	email = <email>
-	name = <username>
+	email = 54011232+arpitchakladar@users.noreply.github.com
+	name = Arpit Chakladar
 [init]
 	defaultBranch = master
 [core]
 	editor = nvim
 [credential]
 	helper = store --file ~/.config/git/credential
+[http]
+	postBuffer = 157286400
