@@ -1,5 +1,0 @@
-xrdb ~/.config/X11/Xresources
-VBoxClient --clipboard
-VBoxClient --vmsvga
-dwmstatus 2>&1 >/dev/null &
-exec dwm

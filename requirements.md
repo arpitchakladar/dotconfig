@@ -11,14 +11,14 @@ For all the programs (optional or required) first check if they can be installed
 | Shell                   | [bash](https://www.gnu.org/software/bash)                |
 | X server                | [xserver](https://www.x.org/wiki/ModuleComponentList)    |
 | Start X Server          | [xinit](https://www.x.org/wiki/ModuleComponentList)      |
-| Window Manager          | [dwm](https://github.com/arpitchakladar/dwm)             |
-| Dynamic Menu            | [dmenu](https://tools.suckless.org/dmenu)                |
-| dwmstatus               | [dwmstatus](https://github.com/arpitchakladar/dwmstatus) |
-| Terminal Emulator       | [st](https://github.com/arpitchakladar/st)               |
+| Window Manager          | [dwm](https://github.com/siduck/chadwm)                  |
+| Rofi                    | [Rofi](https://github.com/davatorium/rofi)               |
+| Terminal Emulator       | [st](https://github.com/siduck/st)                       |
 | File Explorer           | [nnn](https://github.com/jarun/nnn)                      |
 | Text / Code Editor      | [neovim](https://neovim.io)                              |
 | Neovim Plugin Manager   | [packer](https://github.com/wbthomason/packer.nvim)      |
 | Version Control         | [git](https://git-scm.com)                               |
+| NvChad (NeoVim config)  | [NvChad](https://github.com/NvChad/NvChad)               |
 
 ### Fonts
  - [Fira Code Nerd Font](https://www.nerdfonts.com)
